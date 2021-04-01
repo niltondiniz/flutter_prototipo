@@ -23,7 +23,7 @@ class _FloatingActionButtonAppState extends State<FloatingActionButtonApp> {
       width: 70,
       child: FloatingActionButton(
         child: Icon(
-          Icons.search_outlined,
+          Icons.search,
           size: 50,
         ),
         onPressed: homeController.getBatteryLevel,

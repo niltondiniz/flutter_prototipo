@@ -36,31 +36,25 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
 
   @override
   Widget build(BuildContext context) {
-    return AnnotatedRegion<SystemUiOverlayStyle>(
-      value: SystemUiOverlayStyle.light,
-      child: Scaffold(
-        floatingActionButton: FloatingActionButtonApp(),
-        floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-        bottomNavigationBar: BottomNavigationApp(),
-        body: SingleChildScrollView(
-          child: Column(
-            children: [
-              Stack(
-                children: [
-                  SizedBox(height: 90),
-                  Padding(
-                    padding: EdgeInsets.only(left: 16),
-                    child: appController.currentScreen != null
-                        ? appController.currentScreen
-                        : CenterVazio(),
-                  ),
-                  AppBarClip(),
-                ],
-              ),
-            ],
-          ),
+    return Scaffold(
+      extendBody: true,
+      body: Container(
+        child: Stack(
+          children: [
+            //SizedBox(height: 90),
+            Padding(
+              padding: EdgeInsets.only(left: 16),
+              child: appController.currentScreen != null
+                  ? appController.currentScreen
+                  : CenterVazio(),
+            ),
+            AppBarClip(),
+          ],
         ),
       ),
+      floatingActionButton: FloatingActionButtonApp(),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      bottomNavigationBar: BottomNavigationApp(),
     );
   }
 }

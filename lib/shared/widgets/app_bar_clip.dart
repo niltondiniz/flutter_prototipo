@@ -20,49 +20,45 @@ class _AppBarClipState extends ModularState<AppBarClip, HomeController> {
     return ClipShadow(
       boxShadow: [
         BoxShadow(
-          color: Colors.black26,
-          blurRadius: 5,
-          spreadRadius: 5,
-        )
+            //color: Colors.black26,
+            //blurRadius: 5,
+            //spreadRadius: 5,
+            )
       ],
       clipper: ClipperAppBar(),
-      child: Column(
-        children: [
-          Container(
-            height: MediaQuery.of(context).size.height * 0.16,
-            width: double.infinity,
-            color: color_4,
-            child: Column(
+      child: Container(
+        height: MediaQuery.of(context).size.height * 0.16,
+        width: double.infinity,
+        color: color_4,
+        child: Column(
+          children: [
+            SizedBox(
+              height: MediaQuery.of(context).size.height * 0.10,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 SizedBox(
-                  height: MediaQuery.of(context).size.height * 0.10,
+                  width: MediaQuery.of(context).size.width * 0.4,
+                  child: TextFieldApp(),
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    SizedBox(
-                      width: MediaQuery.of(context).size.width * 0.4,
-                      child: TextFieldApp(),
-                    ),
-                    Icon(
-                      Icons.place,
-                      color: color_1,
-                    ),
-                    Observer(
-                      builder: (_) => Text(
-                        homeController.batteryLevel,
-                        style: TextStyle(
-                          color: Colors.white,
-                        ),
-                      ),
-                    ),
-                  ],
+                Icon(
+                  Icons.place,
+                  color: color_1,
                 ),
+                /*Observer(
+                  builder: (_) => Text(
+                    homeController.batteryLevel,
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                ),*/
               ],
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

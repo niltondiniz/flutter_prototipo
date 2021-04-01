@@ -35,22 +35,12 @@ class _InitialPageState extends ModularState<InitialPage, InitialController> {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        children: [
-          SizedBox(
-            height: 90,
-          ),
-          Container(
-            height: MediaQuery.of(context).size.height - (210 - 60),
-            child: ListView.builder(
-              itemCount: controller.widgetsInital.length,
-              itemBuilder: (BuildContext context, int index) {
-                return controller.widgetsInital[index];
-              },
-            ),
-          ),
-        ],
+    return Container(
+      child: ListView.builder(
+        itemCount: controller.widgetsInital.length,
+        itemBuilder: (BuildContext context, int index) {
+          return controller.widgetsInital[index];
+        },
       ),
     );
   }

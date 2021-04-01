@@ -14,6 +14,7 @@ class _BottomNavigationAppState extends State<BottomNavigationApp> {
       color: color_4,
       notchMargin: 5,
       child: Container(
+        color: Colors.transparent,
         padding: EdgeInsets.only(left: 20, right: 20),
         height: 60,
         child: Row(

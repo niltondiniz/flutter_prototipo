@@ -1,0 +1,4 @@
+#Thu Sep 24 02:11:53 BRT 2020
+base.0=/Users/niltondiniz/Projects/Flutter/vig_prot/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

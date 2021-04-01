@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Runner/GeneratedPluginRegistrant.m \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Runner/GeneratedPluginRegistrant.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Modules/module.modulemap \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterTexture.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterPlugin.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterEngine.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterDartProject.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterBinaryMessenger.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterViewController.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterPlatformViews.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterChannels.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterCallbackCache.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterCodecs.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterMacros.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/FlutterAppDelegate.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Flutter/Flutter.framework/Headers/Flutter.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/build/ios/Debug-iphoneos/onesignal_flutter/onesignal_flutter.framework/Headers/OneSignalPlugin.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/build/ios/Debug-iphoneos/onesignal_flutter/onesignal_flutter.framework/Modules/module.modulemap \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Pods/OneSignal/iOS_SDK/OneSignalSDK/Framework/OneSignal.framework/Modules/module.modulemap \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/ios/Pods/OneSignal/iOS_SDK/OneSignalSDK/Framework/OneSignal.framework/Headers/OneSignal.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/build/ios/Debug-iphoneos/onesignal_flutter/onesignal_flutter.framework/Headers/OSFlutterTagsController.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/build/ios/Debug-iphoneos/onesignal_flutter/onesignal_flutter.framework/Headers/OSFlutterOutcomeEventsController.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/build/ios/Debug-iphoneos/onesignal_flutter/onesignal_flutter.framework/Headers/OSFlutterInAppMessagesController.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/build/ios/Debug-iphoneos/onesignal_flutter/onesignal_flutter.framework/Headers/OSFlutterCategories.h \
+  /Users/niltondiniz/Projects/Flutter/vig_prot/build/ios/Debug-iphoneos/onesignal_flutter/onesignal_flutter.framework/Headers/onesignal_flutter-umbrella.h
